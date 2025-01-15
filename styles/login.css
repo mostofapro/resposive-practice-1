@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main-menu{
+  /* background-color: beige; */
+  margin-top: 10px;
+}
+nav > ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 150px;
+}
+.nav-menu{
+  display: flex;
+  gap: 20px;
+  background-color: rgb(159, 199, 234);
+  padding: 10px;
+  border-radius: 5px;
+}
+.login{
+  background-color: rgb(159, 199, 234);
+  padding: 10px;
+  border-radius: 5px;
+}
+nav > ul li{
+  font-size: 25px;
+}
+nav > ul li a{
+  color: #147a4e;
+}
+
+nav > ul li a:hover{
+  color: rgb(22, 156, 156);
+}
+/* Login Form Styles */
+.login-form-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.login-form{
+  border: 2px solid rgb(198, 196, 196);
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-form > h3{
+  font-size: 30px;
+}
+
+.login-form >label{
+  font-size: 20px;
+}
+.login-form > input{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+.btn{
+  width: 30%;
+  background: green;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+}
+
+/* Grid Practice */
+.grid-items{
+  background-color: antiquewhite;
+  margin: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  gap: 10px;
+}
+.item{
+  grid-template-rows: 100px;
+  background-color: #147a4e;
+  border: 1px solid saddlebrown;
+  /* width: 20vw; */
+  /* height: 10vh; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #ffffff;
+}
